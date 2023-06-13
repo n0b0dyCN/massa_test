@@ -206,6 +206,9 @@ pub fn start_protocol_controller(
         },
     );
 
+    peernet_config.rate_limit = 1024 * 512;
+    peernet_config.rate_bucket_size = 1024 * 1024;
+
     let initial_peers_infos = serde_json::from_str::<HashMap<PeerId, PeerData>>(
         &std::fs::read_to_string(&config.initial_peers)?,
     )?;
