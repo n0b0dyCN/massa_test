@@ -3605,7 +3605,7 @@ checksum = "19b17cddbe7ec3f8bc800887bab5e717348c95ea2ca0b1bf0837fb964dc67099"
 [[package]]
 name = "peernet"
 version = "0.1.0"
-source = "git+https://github.com/massalabs/PeerNet?branch=use_stream_limiter#9607850126949a1c62d098ca1132aa81952ff0c7"
+source = "git+https://github.com/massalabs/PeerNet?branch=use_stream_limiter#203d48a2e6f403c5e1688ce64bb0da4011ba0139"
 dependencies = [
  "crossbeam",
  "enum_delegate",
@@ -4773,7 +4773,7 @@ checksum = "92b85d49eee44700a8dc9a3e2d316e8e1f7d661d3eccd606ad9d02e9969e04bc"
 [[package]]
 name = "stream_limiter"
 version = "2.0.0"
-source = "git+https://github.com/massalabs/stream_limiter?branch=fix_stream_limiter_network#807cd04b42681a9796f3ab63f6e992bcdd17e6df"
+source = "git+https://github.com/massalabs/stream_limiter?branch=fix_stream_limiter_network#33a044efe4fcc191f270344374c0e17d4124810b"
 
 [[package]]
 name = "strsim"
