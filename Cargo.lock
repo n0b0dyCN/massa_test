@@ -2930,7 +2930,6 @@ dependencies = [
  "massa_time",
  "massa_wallet",
  "mockall",
- "num",
  "parking_lot",
  "tokio",
  "tracing",
