@@ -24,7 +24,7 @@ use tracing::{debug, error, info, warn};
 //pub use establisher::Establisher;
 mod binders;
 mod handshake_worker;
-mod messages;
+pub mod messages;
 mod network_cmd_impl;
 mod network_event;
 mod network_worker;
