@@ -67,7 +67,7 @@ fn test_pool() {
             let mut seq = Sequence::new();
             for _ in 0..198 {
                 story
-                    .expect_unexecuted_ops_among()
+                    .expect_get_ops_exec_status()
                     .times(1)
                     .returning(|ops, _| ops.clone())
                     .in_sequence(&mut seq);
